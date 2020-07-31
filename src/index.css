@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary: #2A7AE4;
+  --primary: #e01f1e;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
@@ -21,5 +21,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: inherit; /*fonte sempre igual ao do pai*/
 } 
+
+#root {
+  min-height:  calc(100vh - var(--bodyPaddingTop));;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+}
